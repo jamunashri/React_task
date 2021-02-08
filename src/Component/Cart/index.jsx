@@ -68,7 +68,7 @@ export default function Cart(props) {
                             ) : (
                                     <tr >
                                         <td data-column="Last Name">{name}</td>
-                                        <td data-column="Last Name">{price}</td>
+                                        <td data-column="Last Name">{ count * price}</td>
                                         <td data-column="Last Name">
                                             <button onClick={() => setCount(count + 1)}><span role="img" aria-label="add">+</span></button>
                                             <button onClick={() => setCount(count - 1)}><span role="img" aria-label="add">-</span></button>
